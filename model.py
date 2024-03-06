@@ -61,7 +61,7 @@ class Net(torch.nn.Module):
         feature2 = x2
         x2 = F.relu(self.lin3(x2))
 
-        output = F.softmax(0.5 * (x1 + x2))
+        output = F.softmax(0.5 * (x1 + x2), dim=-1)
         output1 = F.softmax(x1, dim=-1)
         output2 = F.softmax(x2, dim=-1)
 
