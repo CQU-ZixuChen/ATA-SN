@@ -1,2 +1,1 @@
-We are making updates to the codes of ATA-SN.
-The codes will be released soon....
+The source codes of ATA-SN.
